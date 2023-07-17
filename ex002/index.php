@@ -13,7 +13,14 @@
     <?php
     date_default_timezone_set('America/Sao_Paulo');
     echo 'Hoje é dia ' . date('d/m/Y');
-    echo ' e a hora atual é ' . date('G:i:s')
+    echo ' e a hora atual é ' . date('G:i:s');
+
+    $nome = 'Alehandro';
+    $sobrenome = 'Santos';
+    const PAIS = 'Brasil';
+    $sobrenome = 'Vidal';
+
+    echo "<br /> Meu prazer, $nome $sobrenome! Você mora no " . PAIS;
     ?>
 
 </body>
